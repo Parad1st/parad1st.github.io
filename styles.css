@@ -167,7 +167,7 @@ ul li a {
 
 footer {
     font-family: 'Raleway', sans-serif;     
-    padding-top: 580px;
+    padding-top: 710px;
     text-align: center;
     font-size: 10px;
     color: white;
@@ -185,7 +185,10 @@ footer a {
     letter-spacing: 1px;
 }
 
-/* Start of animation */
+
+/*--------------------------------------------------------------
+# Animation
+--------------------------------------------------------------*/
 
 header div {
     animation: fromTop .7s .2s backwards;
@@ -239,10 +242,10 @@ footer {
     100% { opacity: 1; }
 }
 
-/* End of animation */
 
-
-/* Start of accordion drop-menu style */
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
 
 content {
     display: flex;
@@ -361,13 +364,13 @@ span {
     transition: transform .3s;
 }
 
-.about_text { 
-  width: 600px;
-  height: 300px;
-  border-radius: 15px;
-  background-color: Snow;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/*--------------------------------------------------------------
+# About page (test!)
+--------------------------------------------------------------*/
+.title_about {
+	position: relative;
+	background-color: #fff;
 }
 
-/* End of accordion drop-menu style */
 
+/* End */
