@@ -361,6 +361,13 @@ span {
     transition: transform .3s;
 }
 
+.about_text { 
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: Snow;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 /* End of accordion drop-menu style */
 
