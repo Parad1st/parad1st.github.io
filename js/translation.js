@@ -1,6 +1,6 @@
 let userLang = navigator.language;
 console.log(userLang);
-if (userLang == 'pt-BR') {
+if (userLang == 'ru-RU') {
     fetch(`translations/${userLang}.json`).then(response => {
         return response.json();
     }).then(translation => {
