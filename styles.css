@@ -365,12 +365,117 @@ span {
 }
 
 /*--------------------------------------------------------------
-# About page (test!)
+# About page
 --------------------------------------------------------------*/
-.title_about {
-	position: relative;
-	background-color: #fff;
+
+
+.aboutbox{
+
+    
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'minecraft';
+    color: white;
+    border-radius: 100px;
+
 }
 
+.aboutbox-image{
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.aboutbox h1{
+
+    font-size: 33px;
+    letter-spacing: 1px;
+    margin-top: -15px;
+    font-weight: 100;
+
+}
+
+.aboutrussia{
+
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: -3px;
+    margin-left: -7px;
+
+}
+
+.aboutbox h3{
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: -5%;
+
+}
+
+.aboutbox p{
+
+    text-align: center;
+    margin-top: 10%;
+    line-height: 35px;
+
+}
+
+ul{
+    
+    margin: 0;
+    padding: 0;
+    margin-top: -10%;
+
+}
+
+.box li{
+
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+
+.box li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+
+}
+
+.box li a:hover{
+
+    color: #b9b9b9;
+
+}
+
+hyinya_s_nizy {
+    font-family: 'Raleway', sans-serif;     
+    padding-top: 710px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+hyinya_s_nizy a {
+    font-family: 'Raleway', sans-serif;    
+    padding-top: 1px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin: auto;
+    letter-spacing: 1px;
+}
 
 /* End */
